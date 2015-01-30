@@ -1,10 +1,16 @@
 #include "Primes.h"
 
 int p3() {
-	unsigned long n = 600851475143;
+	__int64 n = 600851475143;
 	while (n % 3 == 0) n /= 3;
-	std::vector<int> primes = getPrimes(n);
-	for (int i = primes.size() - 1; i >= 0; i--) {
-		if (n % primes[i] == 0) return primes[i];
+	std::vector<int> primes = getPrimes(10000);
+	
+	for (std::vector<int>::iterator it = primes.begin(); it != primes.end(); ++it) {
+		int prime = *it;
+		while (n % prime == 0) {
+			n /= prime;
+		}
+		if (n == 1) return prime;
 	}
+	return 0;
 }

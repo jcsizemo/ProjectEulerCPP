@@ -1,9 +1,8 @@
 #include "problems.h"
 #include <iostream>
+#include <string>
 
 int main(void) {
-	//std::cout << p1() << std::endl;
-	//std::cout << p2() << std::endl;
-	std::cout << p3() << std::endl;
+	std::cout << p4() << std::endl;
 	while (true);
 }
