@@ -16,6 +16,10 @@
     <ClCompile Include="P2.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />
+    <ClCompile Include="P5.cpp" />
+    <ClCompile Include="P6.cpp" />
+    <ClCompile Include="P7.cpp" />
+    <ClCompile Include="P8.cpp" />
     <ClCompile Include="Primes.cpp" />
   </ItemGroup>
   <ItemGroup>

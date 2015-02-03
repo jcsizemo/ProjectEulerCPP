@@ -1,12 +1,11 @@
 #include <cmath>
 #include <cstdlib>
 #include <string>
-#include <iostream>
 
 bool isPalindrome(int product) {
-	int length = ceil(log10(product));
+	int length = (int) ceil(log10(product));
 	std::string n = std::to_string(product);
-	for (int i = 0; i < n.length() / 2; i++) {
+	for (unsigned int i = 0; i < n.length() / 2; i++) {
 		if (n[i] != n[length - i - 1]) return false;
 	}
 
@@ -15,15 +14,17 @@ bool isPalindrome(int product) {
 
 int p4() {
 
-	int n1 = 999;
+	int maxProduct = 0;
 
-	while (n1 >= 100) {
-		for (int n2 = 999, product = n1*n2; n2 >= n1; n2--, product = n1*n2) {
-			std::cout << n1 << "," << n2 << std::endl;
-			if (isPalindrome(product)) return product;
+	for (int i = 999; i >= 100; i--) {
+		if (i * 999 < maxProduct) {
+			return maxProduct;
 		}
-		n1--;
+		for (int j = 999; j >= 100; j--) {
+			int product = i*j;
+			if (isPalindrome(product) && maxProduct < product) maxProduct = product;
+		}
 	}
 
-	return 0;
+	return maxProduct;
 }

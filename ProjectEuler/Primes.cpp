@@ -6,8 +6,8 @@ std::vector<bool> getNotprimes(unsigned long limit) {
 	notprimes[0] = true;
 	notprimes[1] = true;
 
-	for (int i = 2; i <= limit; i++)
-		for (int j = 2 * i; j <= limit; j += i)
+	for (unsigned int i = 2; i <= limit; i++)
+		for (unsigned int j = 2 * i; j <= limit; j += i)
 			notprimes[j] = true;
 
 	return notprimes;
@@ -21,8 +21,8 @@ std::vector<int> getPrimes(unsigned long limit) {
 	notprimes[0] = true;
 	notprimes[1] = true;
 
-	for (int i = 2; i <= limit; i++) {
-		for (int j = 2 * i; j <= limit; j += i)
+	for (unsigned int i = 2; i <= limit; i++) {
+		for (unsigned int j = 2 * i; j <= limit; j += i)
 			notprimes[j] = true;
 
 		if (!notprimes[i]) primes.push_back(i);
