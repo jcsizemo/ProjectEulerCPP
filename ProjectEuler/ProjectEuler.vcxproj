@@ -13,6 +13,9 @@
   <ItemGroup>
     <ClCompile Include="Euler.cpp" />
     <ClCompile Include="P1.cpp" />
+    <ClCompile Include="P10.cpp" />
+    <ClCompile Include="P11.cpp" />
+    <ClCompile Include="P12.cpp" />
     <ClCompile Include="P2.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />
@@ -20,6 +23,7 @@
     <ClCompile Include="P6.cpp" />
     <ClCompile Include="P7.cpp" />
     <ClCompile Include="P8.cpp" />
+    <ClCompile Include="P9.cpp" />
     <ClCompile Include="Primes.cpp" />
   </ItemGroup>
   <ItemGroup>

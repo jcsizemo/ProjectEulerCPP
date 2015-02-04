@@ -1,7 +1,5 @@
 #include <string>
 #include <sstream>
-#include <set>
-#include <algorithm>
 
 long long p8() {
 
@@ -29,21 +27,22 @@ long long p8() {
 
 	std::string n = ss.str();
 	long long maxProduct = 1;
+	long long product = 1;
 
-	std::set<std::string> sequences;
-	for (unsigned int i = 13; i <= n.size(); i++) {
-		std::string str = n.substr(i - 13, 13);
-		char* cstr = (char*) str.c_str();
-		std::sort(cstr,cstr+13);
-		if (cstr[0] == '0') continue;
-		sequences.insert(str);
-	}
+	for (unsigned int i = 0, count = 0; i < n.size(); i++) {
 
-	std::string max = *(--sequences.end());
-	char* cstr = (char*) max.c_str();
-
-	for (int i = 0; i < 13; i++) {
-		maxProduct *= cstr[i] - '0';
+		if (n[i] == '0') {
+			count = 0;
+			product = 1;
+		}
+		else {
+			count++;
+			if (count > 13)
+				product /= n[i - 13] - '0';
+			product *= n[i] - '0';
+			if (count >= 13 && product > maxProduct)
+				maxProduct = product;
+		}
 	}
 
 	return maxProduct;

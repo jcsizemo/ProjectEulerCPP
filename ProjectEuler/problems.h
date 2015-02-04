@@ -6,3 +6,7 @@ int p5();
 int p6();
 int p7();
 long long p8();
+int p9();
+long long p10();
+int p11();
+int p12();
