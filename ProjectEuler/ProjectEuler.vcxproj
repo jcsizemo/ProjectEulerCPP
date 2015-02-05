@@ -11,11 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BigInteger.cpp" />
     <ClCompile Include="Euler.cpp" />
     <ClCompile Include="P1.cpp" />
     <ClCompile Include="P10.cpp" />
     <ClCompile Include="P11.cpp" />
     <ClCompile Include="P12.cpp" />
+    <ClCompile Include="P13.cpp" />
     <ClCompile Include="P2.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />
@@ -27,6 +29,7 @@
     <ClCompile Include="Primes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BigInteger.h" />
     <ClInclude Include="Primes.h" />
     <ClInclude Include="problems.h" />
   </ItemGroup>

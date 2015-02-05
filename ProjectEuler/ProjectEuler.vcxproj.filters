@@ -56,12 +56,21 @@
     <ClCompile Include="P12.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="P13.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInteger.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">
       <Filter>Support</Filter>
     </ClInclude>
     <ClInclude Include="problems.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInteger.h">
       <Filter>Support</Filter>
     </ClInclude>
   </ItemGroup>
