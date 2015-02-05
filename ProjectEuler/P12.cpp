@@ -26,8 +26,9 @@ int getFactors(int n) {
 int p12() {
 
 	int i = 2;
-
+	std::cout << "one" << std::endl;
 	primes = getPrimes(size);
+	std::cout << "two" << std::endl;
 
 	for (int numDivisors = 0; numDivisors < 500; i++) {
 		int tri = i*(i + 1) / 2;
