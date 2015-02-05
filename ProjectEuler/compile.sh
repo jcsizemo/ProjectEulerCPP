@@ -1,0 +1,1 @@
+g++ -o ProjectEuler *.cpp *.h

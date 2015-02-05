@@ -10,7 +10,7 @@ std::vector<int> primes;
 int getFactors(int n) {
 
 	if (n == 1) return 0;
-	if (factors[n] != NULL) return factors[n];
+	if (factors[n] != factors[n]) return factors[n];
 
 	int index = 0;
 	int prime = 2;

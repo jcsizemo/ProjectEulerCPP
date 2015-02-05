@@ -1,7 +1,7 @@
 #include "Primes.h"
 
 int p3() {
-	__int64 n = 600851475143;
+	long long n = 600851475143;
 	while (n % 3 == 0) n /= 3;
 	std::vector<int> primes = getPrimes(10000);
 	
