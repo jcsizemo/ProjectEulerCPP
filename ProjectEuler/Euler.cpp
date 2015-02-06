@@ -3,6 +3,6 @@
 #include <string>
 
 int main(void) {
-	std::cout << p14() << std::endl;
+	std::cout << p15() << std::endl;
 	int x = 2;
 }
