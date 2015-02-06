@@ -1,6 +1,7 @@
 #include "BigInteger.h"
 #include <cmath>
 #include <iostream>
+#include <sstream>
 
 BigInteger::BigInteger(long n) : nums(500,0)
 {
@@ -36,9 +37,19 @@ BigInteger::~BigInteger()
 
 BigInteger BigInteger::add(BigInteger bi) {
 
-	//unsigned long 
-	//for (int i = 0; )
-	return bi;
+	int index = 0;
+	unsigned long sum = this->nums[index] + bi.nums[index];
+	unsigned long carry = 0;
+
+	while (sum != 0) {
+		if (sum > MAX) {
+			this->nums[index++] = sum & MAX;
+			carry = sum >> 32;
+		}
+		sum = this->nums[index] + bi.nums[index] + carry;
+		index++;
+	}
+	return *this;
 }
 
 BigInteger BigInteger::subtract(BigInteger bi) {
@@ -61,6 +72,13 @@ std::vector<long> BigInteger::values() {
 	return this->nums;
 }
 
-std::string toString() {
-	return "ASDAS";
+std::string BigInteger::toString() {
+	std::stringstream ss;
+	std::string temp = "";
+	for (unsigned int i = 0; i < this->nums.size() && this->nums[i] != 0; i++) {
+		ss.str("");
+		ss << this->nums[i] << temp;
+		temp = ss.str();
+	}
+	return temp;
 }
