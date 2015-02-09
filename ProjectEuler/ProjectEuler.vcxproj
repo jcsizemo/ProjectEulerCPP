@@ -18,6 +18,9 @@
     <ClCompile Include="P11.cpp" />
     <ClCompile Include="P12.cpp" />
     <ClCompile Include="P13.cpp" />
+    <ClCompile Include="P14.cpp" />
+    <ClCompile Include="P15.cpp" />
+    <ClCompile Include="P16.cpp" />
     <ClCompile Include="P2.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />

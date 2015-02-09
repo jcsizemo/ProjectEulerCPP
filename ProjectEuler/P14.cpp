@@ -21,7 +21,7 @@ unsigned long p14() {
 	unsigned long max = 0;
 	int index = 0;
 
-	for (long long i = 1; i < 1000000; i++) {
+	for (unsigned long i = 1; i < 1000000; i++) {
 		collatz[i] = getCollatz(i);
 		if (collatz[i] > max) {
 			max = collatz[i];

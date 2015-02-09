@@ -1,3 +1,6 @@
+#include <string>
+#include <iostream>
+
 int p1();
 int p2();
 int p3();
@@ -10,6 +13,7 @@ int p9();
 long long p10();
 int p11();
 int p12();
-int p13();
+std::string p13();
 unsigned long p14();
 unsigned long p15();
+unsigned long p16();

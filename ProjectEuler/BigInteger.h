@@ -1,11 +1,10 @@
 #include <string>
 #include <vector>
 
-#define MAX 0x7fffffff
-
 class BigInteger
 {
 public:
+	static const long BASE = 10000;
 	BigInteger(long n);
 	BigInteger(std::string n);
 	~BigInteger();
@@ -13,7 +12,7 @@ public:
 	BigInteger subtract(BigInteger bi);
 	BigInteger times(BigInteger bi);
 	BigInteger divide(BigInteger bi);
-	BigInteger raise(BigInteger bi);
+	BigInteger pow(int exp);
 	std::vector<long> values();
 	std::string toString();
 
