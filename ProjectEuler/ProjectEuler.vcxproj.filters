@@ -71,6 +71,18 @@
     <ClCompile Include="P16.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="P17.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P18.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P19.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P20.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">

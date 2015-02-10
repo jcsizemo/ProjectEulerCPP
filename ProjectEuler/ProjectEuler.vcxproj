@@ -21,7 +21,11 @@
     <ClCompile Include="P14.cpp" />
     <ClCompile Include="P15.cpp" />
     <ClCompile Include="P16.cpp" />
+    <ClCompile Include="P17.cpp" />
+    <ClCompile Include="P18.cpp" />
+    <ClCompile Include="P19.cpp" />
     <ClCompile Include="P2.cpp" />
+    <ClCompile Include="P20.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />
     <ClCompile Include="P5.cpp" />

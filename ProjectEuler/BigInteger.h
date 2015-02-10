@@ -15,6 +15,7 @@ public:
 	BigInteger pow(int exp);
 	std::vector<long> values();
 	std::string toString();
+	void clear();
 
 private:
 	std::vector<long> nums;

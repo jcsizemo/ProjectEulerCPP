@@ -137,7 +137,9 @@ std::string BigInteger::toString() {
 	ss << this->nums[nums.size() - 1];
 
 	for (int i = (int) this->nums.size() - 2; i >= 0; i--) {
-		for (int n = this->nums[i]; n < 1000; n *= 10) ss << "0";
+		if (this->nums[i] == 0) ss << "0000";
+		else
+			for (int n = this->nums[i]; n < 1000; n *= 10) ss << "0";
 		ss << this->nums[i];
 	}
 	return ss.str();

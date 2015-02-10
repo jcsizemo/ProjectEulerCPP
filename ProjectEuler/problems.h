@@ -17,3 +17,7 @@ std::string p13();
 unsigned long p14();
 unsigned long p15();
 unsigned long p16();
+int p17();
+int p18();
+int p19();
+int p20();
