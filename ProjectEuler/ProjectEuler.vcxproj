@@ -28,6 +28,7 @@
     <ClCompile Include="P20.cpp" />
     <ClCompile Include="P21.cpp" />
     <ClCompile Include="P22.cpp" />
+    <ClCompile Include="P23.cpp" />
     <ClCompile Include="P3.cpp" />
     <ClCompile Include="P4.cpp" />
     <ClCompile Include="P5.cpp" />

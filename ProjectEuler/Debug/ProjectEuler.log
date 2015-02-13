@@ -1,8 +1,8 @@
-﻿Build started 2/13/2015 3:23:06 PM.
+﻿Build started 2/13/2015 3:50:22 PM.
      1>Project "C:\Users\jsizemore\Music\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt P22.cpp
-         P22.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt P23.cpp
+         P23.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.lib" /MACHINE:X86 Debug\BigInteger.obj
          Debug\Euler.obj
@@ -21,6 +21,7 @@
          Debug\P20.obj
          Debug\P21.obj
          Debug\P22.obj
+         Debug\P23.obj
          Debug\P3.obj
          Debug\P4.obj
          Debug\P5.obj
@@ -34,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.62
+Time Elapsed 00:00:00.40
