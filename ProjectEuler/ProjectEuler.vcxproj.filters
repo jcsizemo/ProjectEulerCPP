@@ -83,6 +83,12 @@
     <ClCompile Include="P20.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="P21.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P22.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">

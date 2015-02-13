@@ -1,6 +1,6 @@
 #include "problems.h"
 
 int main(void) {
-	std::cout << p20() << std::endl;
+	std::cout << p22() << std::endl;
 	int x = 2;
 }

@@ -23,7 +23,7 @@ int p18() {
 	pyramid.push_back({ 4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23 });
 
 	for (int i = SIZE-2; i >= 0; i--) {
-		for (int j = 0; j < pyramid[i].size(); j++) {
+		for (int j = 0; j < (int) pyramid[i].size(); j++) {
 			pyramid[i][j] += std::max(pyramid[i + 1][j], pyramid[i + 1][j + 1]);
 		}
 	}

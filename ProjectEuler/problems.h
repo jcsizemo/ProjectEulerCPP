@@ -21,3 +21,5 @@ int p17();
 int p18();
 int p19();
 int p20();
+int p21();
+int p22();
