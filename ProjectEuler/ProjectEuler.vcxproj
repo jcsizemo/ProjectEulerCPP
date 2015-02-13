@@ -42,6 +42,9 @@
     <ClInclude Include="Primes.h" />
     <ClInclude Include="problems.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="p022_names.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6885DD3E-5898-484F-B70C-376CF86E4237}</ProjectGuid>
     <RootNamespace>ProjectEuler</RootNamespace>
