@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="BigInteger.cpp" />
     <ClCompile Include="Euler.cpp" />
+    <ClCompile Include="Fib.cpp" />
     <ClCompile Include="P1.cpp" />
     <ClCompile Include="P10.cpp" />
     <ClCompile Include="P11.cpp" />
@@ -40,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BigInteger.h" />
+    <ClInclude Include="Fib.h" />
     <ClInclude Include="Primes.h" />
     <ClInclude Include="problems.h" />
   </ItemGroup>

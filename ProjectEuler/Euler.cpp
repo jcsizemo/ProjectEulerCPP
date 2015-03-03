@@ -1,6 +1,7 @@
 #include "problems.h"
+#include "Fib.h"
 
 int main(void) {
-	std::cout << p23() << std::endl;
+	std::cout << computeFib(50) << std::endl;
 	int x = 2;
 }
