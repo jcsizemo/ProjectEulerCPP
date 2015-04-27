@@ -98,6 +98,12 @@
     <ClCompile Include="Fib.cpp">
       <Filter>Support</Filter>
     </ClCompile>
+    <ClCompile Include="P24.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P25.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">

@@ -16,6 +16,7 @@ public:
 	std::vector<long> values();
 	std::string toString();
 	void clear();
+	int size();
 
 private:
 	std::vector<long> nums;

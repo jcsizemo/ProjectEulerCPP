@@ -132,6 +132,10 @@ std::vector<long> BigInteger::values() {
 	return this->nums;
 }
 
+int BigInteger::size() {
+	return this->nums.size();
+}
+
 std::string BigInteger::toString() {
 	std::stringstream ss;
 	ss << this->nums[nums.size() - 1];
