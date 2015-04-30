@@ -104,6 +104,9 @@
     <ClCompile Include="P25.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="P26.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">

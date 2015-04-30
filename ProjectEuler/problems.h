@@ -25,3 +25,4 @@ int p21();
 int p22();
 int p23();
 int p25();
+int p26();
