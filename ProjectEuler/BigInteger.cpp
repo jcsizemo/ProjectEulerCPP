@@ -59,10 +59,8 @@ BigInteger BigInteger::add(BigInteger bi) {
 		if (index < bigger.nums.size()) {
 			int sum = bigger.nums[index] + carry;
 			carry = 0;
-			if (sum >= BASE) {
-				carry = sum / BASE;
-				bigger.nums[index++] = sum % BASE;
-			}
+			if (sum >= BASE) carry = sum / BASE;
+			bigger.nums[index++] = sum % BASE;
 		}
 		else {
 			bigger.nums.push_back(carry);
@@ -133,7 +131,9 @@ std::vector<long> BigInteger::values() {
 }
 
 int BigInteger::size() {
-	return this->nums.size();
+	int size = 1 + (int) log10(nums[nums.size() - 1]);
+	if (nums.size() > 1) size += (nums.size() - 1) * 4;
+	return size;
 }
 
 std::string BigInteger::toString() {
