@@ -1,31 +1,30 @@
-#include <vector>
+#include <map>
+#include "ModExponentiation.h"
 
 int p26() {
 
-	int sequenceLength = 0;
-	int largestIndex = 0;
+	// solution partially derived from the Wolfram MathWorld page on decimal expansion
 
-	for (int i = 1000; i > 1; i--) {
-		if (sequenceLength >= i) {
-			break;
+	int largest = -1;
+	int largestCycle = -1;
+
+	for (int m = 1000; m > 1 && m >= largestCycle; m--) {
+
+		std::map<int, int> mods;
+		int e = 0;
+		int mod = modularExponentiation(10, e, m);
+		while (mods.find(mod) == mods.end()) {
+			mods.insert(std::pair<int,int>(mod, e++));
+			mod = modularExponentiation(10, e, m);
 		}
 
-		std::vector<int> foundRemainders(i);
-		int value = 1;
-		int position = 0;
-
-		while (foundRemainders[value] == 0 && value != 0) {
-			foundRemainders[value] = position;
-			value *= 10;
-			value %= i;
-			position++;
+		int cycleLength = e - mods[mod];
+		if (largestCycle < cycleLength) {
+			largestCycle = cycleLength;
+			largest = m;
 		}
 
-		if (position - foundRemainders[value] > sequenceLength) {
-			sequenceLength = position - foundRemainders[value];
-			largestIndex = i;
-		}
 	}
 
-	return largestIndex;
+	return largest;
 }

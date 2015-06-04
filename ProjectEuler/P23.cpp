@@ -10,15 +10,15 @@ int p23() {
 
 	int sum = 1;
 
-	for (int i = 2; i < divSums.size(); i++) {
-		if (divSums[i] > i) {
+	for (unsigned int i = 2; i < divSums.size(); i++) {
+		if ((unsigned int) divSums[i] > i) {
 			abundants.push_back(i);
 			sumOfTwoAbundants[i*2] = true;
 			for (int abundant : abundants) sumOfTwoAbundants[i + abundant] = true;
 		}
 		if (!sumOfTwoAbundants[i]) sum += i;
 
-		for (int j = 2 * i; j < divSums.size(); j += i) {
+		for (unsigned int j = 2 * i; j < divSums.size(); j += i) {
 			divSums[j] += i;
 		}
 	}

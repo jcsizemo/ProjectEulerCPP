@@ -17,9 +17,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Euler.cpp">
-      <Filter>ProjectEuler</Filter>
-    </ClCompile>
     <ClCompile Include="P1.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
@@ -107,6 +104,12 @@
     <ClCompile Include="P26.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="Euler.cpp">
+      <Filter>ProjectEuler</Filter>
+    </ClCompile>
+    <ClCompile Include="ModExponentiation.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">
@@ -119,6 +122,9 @@
       <Filter>Support</Filter>
     </ClInclude>
     <ClInclude Include="Fib.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="ModExponentiation.h">
       <Filter>Support</Filter>
     </ClInclude>
   </ItemGroup>
