@@ -110,6 +110,21 @@
     <ClCompile Include="ModExponentiation.cpp">
       <Filter>Support</Filter>
     </ClCompile>
+    <ClCompile Include="Heap.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="P27.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P28.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P29.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="P30.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Primes.h">

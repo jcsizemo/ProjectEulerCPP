@@ -14,6 +14,7 @@
     <ClCompile Include="BigInteger.cpp" />
     <ClCompile Include="Euler.cpp" />
     <ClCompile Include="Fib.cpp" />
+    <ClCompile Include="Heap.cpp" />
     <ClCompile Include="ModExponentiation.cpp" />
     <ClCompile Include="P1.cpp" />
     <ClCompile Include="P10.cpp" />
@@ -33,7 +34,11 @@
     <ClCompile Include="P23.cpp" />
     <ClCompile Include="P25.cpp" />
     <ClCompile Include="P26.cpp" />
+    <ClCompile Include="P27.cpp" />
+    <ClCompile Include="P28.cpp" />
+    <ClCompile Include="P29.cpp" />
     <ClCompile Include="P3.cpp" />
+    <ClCompile Include="P30.cpp" />
     <ClCompile Include="P4.cpp" />
     <ClCompile Include="P5.cpp" />
     <ClCompile Include="P6.cpp" />

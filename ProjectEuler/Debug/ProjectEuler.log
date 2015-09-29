@@ -1,45 +1,13 @@
-﻿Build started 6/4/2015 5:33:58 PM.
-     1>Project "C:\Users\jsizemore\Music\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 9/29/2015 2:50:51 PM.
+     1>Project "C:\Users\jsizemore\Music\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BigInteger.cpp Euler.cpp Fib.cpp ModExponentiation.cpp P1.cpp P10.cpp P11.cpp P12.cpp P13.cpp P14.cpp P15.cpp P16.cpp P17.cpp P18.cpp P19.cpp P2.cpp P20.cpp P21.cpp P22.cpp P23.cpp P25.cpp P26.cpp P3.cpp P4.cpp P5.cpp P6.cpp P7.cpp P8.cpp P9.cpp Primes.cpp P24.cpp
-         P24.cpp
-         Primes.cpp
-         P9.cpp
-         P8.cpp
-         P7.cpp
-         P6.cpp
-         P5.cpp
-         P4.cpp
-         P3.cpp
-         P26.cpp
-         P25.cpp
-         P23.cpp
-         P22.cpp
-         P21.cpp
-         P20.cpp
-         P2.cpp
-         P19.cpp
-         P18.cpp
-         P17.cpp
-         P16.cpp
-         Generating Code...
-         Compiling...
-         P15.cpp
-         P14.cpp
-         P13.cpp
-         P12.cpp
-         P11.cpp
-         P10.cpp
-         P1.cpp
-         ModExponentiation.cpp
-         Fib.cpp
-         Euler.cpp
-         BigInteger.cpp
-         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt P30.cpp
+         P30.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.lib" /MACHINE:X86 Debug\BigInteger.obj
          Debug\Euler.obj
          Debug\Fib.obj
+         Debug\Heap.obj
          Debug\ModExponentiation.obj
          Debug\P1.obj
          Debug\P10.obj
@@ -59,7 +27,11 @@
          Debug\P23.obj
          Debug\P25.obj
          Debug\P26.obj
+         Debug\P27.obj
+         Debug\P28.obj
+         Debug\P29.obj
          Debug\P3.obj
+         Debug\P30.obj
          Debug\P4.obj
          Debug\P5.obj
          Debug\P6.obj
@@ -69,8 +41,8 @@
          Debug\Primes.obj
          Debug\P24.obj
          ProjectEuler.vcxproj -> C:\Users\jsizemore\Music\ProjectEuler\Debug\ProjectEuler.exe
-     1>Done Building Project "C:\Users\jsizemore\Music\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\Users\jsizemore\Music\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.42
+Time Elapsed 00:00:00.47

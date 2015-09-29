@@ -23,6 +23,7 @@ c:\users\jsizemore\music\projecteuler\projecteuler\debug\p24.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\biginteger.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\euler.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\fib.obj
+c:\users\jsizemore\music\projecteuler\projecteuler\debug\heap.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\modexponentiation.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\p1.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\p10.obj
@@ -31,12 +32,14 @@ c:\users\jsizemore\music\projecteuler\projecteuler\debug\p12.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\p13.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\p14.obj
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\p15.obj
-c:\users\jsizemore\music\projecteuler\debug\projecteuler.ilk
-c:\users\jsizemore\music\projecteuler\debug\projecteuler.exe
 c:\users\jsizemore\music\projecteuler\debug\projecteuler.pdb
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\cl.command.1.tlog
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\cl.read.1.tlog
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\cl.write.1.tlog
+c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link-cvtres.read.1.tlog
+c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link-cvtres.write.1.tlog
+c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link-rc.read.1.tlog
+c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link-rc.write.1.tlog
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link.command.1.tlog
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link.read.1.tlog
 c:\users\jsizemore\music\projecteuler\projecteuler\debug\projecteuler.tlog\link.write.1.tlog

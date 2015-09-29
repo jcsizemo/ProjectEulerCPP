@@ -26,3 +26,7 @@ int p22();
 int p23();
 int p25();
 int p26();
+int p27();
+int p28();
+int p29();
+int p30();
